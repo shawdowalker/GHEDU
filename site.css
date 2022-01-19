@@ -83,7 +83,6 @@ a {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 37%;
   width: 98%;
   margin: 0% 1%;
   margin-top: auto;
@@ -101,7 +100,7 @@ a {
 }
 .column {
   flex: 33.33%;
-  height: 200px;
+  height: 80px;
   padding: 20px;
   margin: 15px;
   text-align: center;
