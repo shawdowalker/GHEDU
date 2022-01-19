@@ -1,8 +1,9 @@
-#mainpage {
-  width: 97%;
+html {
+  height: 100%;
 }
 .mainpage {
   background-color: #009e78;
+  margin: 1%;
 }
 .topnav {
   background-color: #ffff;
@@ -82,9 +83,10 @@ a {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 400px;
-  width: 100%;
-  margin: 0 auto;
+  height: 37%;
+  width: 98%;
+  margin: 0% 1%;
+  margin-top: auto;
 }
 .col-md-1 {
   margin-top: 4%;
@@ -95,6 +97,7 @@ a {
 #link {
   font-size: 30px;
   font-weight: bolder;
+  text-align: justify;
 }
 .column {
   flex: 33.33%;
@@ -105,14 +108,15 @@ a {
 }
 .container {
   display: flex;
-  width: 75%;
+  width: 100%;
   margin-bottom: 5%;
 }
 #other {
-  color: black;
+  text-align: justify;
 }
+
 #GED {
-  text-align: inherit;
+  text-align: justify;
 }
 .fa li {
   position: none;

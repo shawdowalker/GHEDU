@@ -19,8 +19,9 @@
 
     <link rel="stylesheet" href="site.css" />
     <title>GHEDU</title>
+    ;
   </head>
-  <body class="mainpage">
+  <body class="mainpage" style="min-height: 100%">
     <div class="topnav">
       <img src="img/logo.png" alt="" class="logo" />
       <p class="tag">Ghana Education Directory</p>
@@ -41,9 +42,13 @@
         over 30,000 schools listed
       </p>
     </div>
-    <div id="search" class="col-md-12">
+    <div id="search" class="col-md-12" style="position: absolute">
       <div class="col-md-1">
-        <i id="searchicon" class="fa fa-search" style="position: absolute"></i>
+        <i
+          id="searchicon"
+          class="fa fa-search"
+          style="position: absolute; border-radius: 10px"
+        ></i>
       </div>
       <div class="col-md-3">
         <input
@@ -63,6 +68,45 @@
         <button id="btnsch">Find School</button>
       </div>
     </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div
+      class=""
+      style="
+        height: 360px;
+        width: 300px;
+        background-color: white;
+        border-radius: 15px;
+        position: absolute;
+      "
+    >
+      <img
+        src="img/logo1.png"
+        alt=""
+        style="height: 200px; width: 200px; margin-left: 40px"
+      />
+      <div style="margin-left: 5%">
+        <p>
+          A. M. E. ZION GIRLS' SENIOR<br />
+          HIGH SCHOOL
+        </p>
+        <p>Phone: 0541785434</p>
+        <p>Location: Winneba</p>
+        <button
+          style="
+            background: #00cd2d;
+            border-radius: 17.5px;
+            border: none;
+            color: white;
+          "
+        >
+          Private Instution
+        </button>
+      </div>
+    </div>
     <div id="footer">
       <div class="container">
         <div class="column">
@@ -75,7 +119,7 @@
           </ul>
         </div>
         <div class="column">
-          <p id="link">Ghana Education Directory</p>
+          <p id="link" style="text-align: justify">Ghana Education Directory</p>
           <p id="GED">
             No.10 Plange Close Adabraka-Ghana <br />
             Tel: +233 302 247726 Email:<br />
@@ -89,7 +133,8 @@
               <i class="fa fa-twitter" style="color: #55acee"></i>Twitter
             </li>
             <li id="other">
-              <i class="fa fa-facebook" style="color: #395185"></i>Facebook
+              <i class="fa fa-facebook-square" style="color: #395185"></i>
+              Facebook
             </li>
           </ul>
         </div>
